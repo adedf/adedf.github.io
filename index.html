@@ -9,6 +9,9 @@
                 margin: 0;
                 background-color: black;
             }
+	    iframe {
+		display: none;
+	    }
             
             /*iframe*/video, .block {
                 width: 100%;
@@ -46,11 +49,12 @@
         <!-- <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allow="autoplay;" allowfullscreen></iframe> -->
         <!-- <iframe src="https://archive.org/embed/Rick_Astley_Never_Gonna_Give_You_Up" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe> -->
         <!-- <iframe src="https://player.vimeo.com/video/429388049?h=d6ef415a87&autoplay=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> -->
-        <video autoplay>
-            <source src="roll_sound.mp4" type="video/mp4">
+        <video autoplay muted>
+            <source src="roll.mp4" type="video/mp4">
         </video>
-        <!-- <audio autoplay>
+	<iframe src="roll.mp3" allow="autoplay"></iframe> 
+        <audio autoplay>
             <source src="roll.mp3" type="audio/mpeg">
-        </audio> -->
+        </audio>
     </body>
 </html>
